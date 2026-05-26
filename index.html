@@ -201,9 +201,20 @@ text-align: center;
 border: 1px solid #2f2f2f;
 }
 
+.card h3 {
+margin-bottom: 10px;
+}
+
 .card p {
 color: var(--text-muted);
 font-size: 0.95rem;
+}
+
+.card strong {
+color: var(--accent);
+font-size: 1.2rem;
+display: block;
+margin: 8px 0;
 }
 
 /* ABOUT */
@@ -230,7 +241,11 @@ margin-top: 80px;
 
 @media (max-width: 768px) {
 .hero h1 { font-size: 2rem; }
-.about { grid-template-columns: 1fr; text-align: center; }
+
+.about {
+grid-template-columns: 1fr;
+text-align: center;
+}
 
 .nav-links {
 display: none;
@@ -248,10 +263,9 @@ display: none;
     <a href="#home" class="logo">ASH ALLEY <span>MEDIA</span></a>
 
     <nav class="nav-links">
-      <a href="#services">Services</a>
-      <a href="#pricing">Pricing</a>
+      <a href="#services">Packages</a>
       <a href="#about">About</a>
-      <a href="#contact" class="button">Book</a>
+      <a href="#contact">Book</a>
     </nav>
   </div>
 </header>
@@ -269,6 +283,7 @@ and service creatives who want clients — not tech stress.
 
 <section>
 <h2>Is Your Link-in-Bio Losing You Clients?</h2>
+
 <ul class="problem-list">
 <li>Too many confusing links</li>
 <li>No clear way to book or contact you</li>
@@ -278,38 +293,34 @@ and service creatives who want clients — not tech stress.
 </section>
 
 <section id="services">
-<h2>Packages & Services</h2>
+
+<h2>Packages</h2>
 
 <div class="cards">
-<div class="card">
-<h3>1-Page Website</h3>
-<p>Clean, focused landing page built to convert.</p>
-</div>
 
 <div class="card">
-<h3>Booking & Contact</h3>
-<p>Easy booking links or contact forms.</p>
+<h3>Starter Landing Page</h3>
+<p><strong>$400</strong></p>
+<p>Simple 1-page website built to convert visitors into bookings.</p>
+<p>Mobile optimized + contact or booking link setup.</p>
 </div>
 
 <div class="card">
-<h3>Mobile-First Design</h3>
-<p>Looks perfect on phones.</p>
+<h3>Booking-Focused Setup</h3>
+<p><strong>$550</strong></p>
+<p>Everything in Starter plus Square booking integration.</p>
+<p>Designed to make scheduling effortless for your clients.</p>
 </div>
 
 <div class="card">
-<h3>Fast Turnaround</h3>
-<p>No long timelines or tech headaches.</p>
+<h3>Full Conversion Build</h3>
+<p><strong>$750</strong></p>
+<p>Advanced layout, copy cleanup, and stronger brand positioning.</p>
+<p>Built for serious service providers ready to scale.</p>
 </div>
+
 </div>
-</section>
 
-<section id="pricing">
-<h2>Packages & Pricing</h2>
-
-<div class="price">Starting at $400</div>
-<p style="text-align:center;color:var(--text-muted)">
-Professional landing page setup, done for you.
-</p>
 </section>
 
 <section class="about" id="about">
